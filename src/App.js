@@ -1,6 +1,6 @@
 import './App.css';
-import Button from './Components/button';
-import CustCard from './Components/custcard';
+import Button from './components/button';
+import CustCard from './components/custcard';
 
 function App() {
   return (
