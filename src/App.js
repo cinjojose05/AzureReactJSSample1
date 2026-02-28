@@ -2,7 +2,7 @@ import './App.css';
 import Button from './button';
 import CustCard from './custcard';
 
-import React, {useState, useEffect, use} from 'react';
+import React, {useState, useEffect} from 'react';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
                 //console.log(customer),
                 <CustCard key={index} fname={customer.FirstName} lname={customer.LastName} city={customer.City} />
               ))}
-        </div>
+            </div>
         </div>
       </header>
     </div>
